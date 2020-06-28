@@ -1,3 +1,15 @@
+This is the ESP32 implement of MMDVMHost app, which originally works 
+on linux platforms, such as Raspberry Pi liked SBCs, linux machines and 
+even Openwrt.
+
+For ESP32 version, will using Arduino for development. Be noticed that 
+right now it's still under development, unable to work now.
+
+For 1st try, I will only porting DMR mode, because right now I'm only have 
+DMR radios. 
+
+===========================================================================
+
 These are the source files for building the MMDVMHost, the program that
 interfaces to the MMDVM or DVMega on the one side, and a suitable network on
 the other. It supports D-Star, DMR, P25 Phase 1, NXDN, System Fusion,
